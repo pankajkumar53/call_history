@@ -1,5 +1,9 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/pankajkumar53/call_history/main/logo.svg" width="180" alt="Call History Plugin Logo">
+  <img
+    src="https://raw.githubusercontent.com/pankajkumar53/call_history/main/logo.svg"
+    width="180"
+    alt="Call History Plugin Logo"
+  />
 </p>
 
 <h1 align="center">call_history</h1>

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+    <defs>
+        <linearGradient id="bg" x1="0" y1="0" x2="200" y2="200">
+            <stop offset="0%" stop-color="#0F2027" />
+            <stop offset="50%" stop-color="#203A43" />
+            <stop offset="100%" stop-color="#2C5364" />
+        </linearGradient>
+
+        <filter id="shadow">
+            <feDropShadow dx="0" dy="4" stdDeviation="4" flood-opacity="0.3" />
+        </filter>
+    </defs>
+
+    <!-- Background -->
+    <rect width="200" height="200" rx="45" fill="url(#bg)" />
+
+    <g filter="url(#shadow)">
+
+        <!-- History Refresh Arrow -->
+        <path d="M100 35
+         C64.1 35 35 64.1 35 100
+         C35 135.9 64.1 165 100 165
+         C135.9 165 165 135.9 165 100
+         L149 100
+         C149 127 127 149 100 149
+         C73 149 51 127 51 100
+         C51 73 73 51 100 51
+         C114 51 126 57.5 134 67.5
+         L115 86
+         L165 86
+         L165 36
+         L146 55
+         C134 42.5 118 35 100 35 Z" fill="#00D2FF" />
+
+        <!-- Phone Icon - Centered -->
+        <path d="M125 110
+         l -10 -10
+         c -2 -2 -6 -2 -8 0
+         l -9 9
+         c -12 -6 -22 -16 -28 -28
+         l 9 -9
+         c 2 -2 2 -6 0 -8
+         l -10 -10
+         c -2 -2 -6 -2 -8 0
+         l -10 10
+         c -1 12 3 27 16 40
+         c 13 13 28 17 40 16
+         l 10 -10
+         c 2 -2 2 -6 0 -8
+         z" transform="translate(16, 7)" fill="#FFFFFF" />
+
+    </g>
+</svg>

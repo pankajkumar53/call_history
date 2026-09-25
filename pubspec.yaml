@@ -1,0 +1,25 @@
+name: call_history
+description: A highly optimized Flutter plugin to natively fetch Android call logs with background threading, pagination, and SQLite filtering.
+version: 1.0.0
+homepage: https://github.com/pankajkumar53/call_history
+
+environment:
+  sdk: ^3.10.7
+  flutter: '>=3.3.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  plugin_platform_interface: ^2.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.engineerstech.call_history
+        pluginClass: CallHistoryPlugin

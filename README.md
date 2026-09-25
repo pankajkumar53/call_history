@@ -1,6 +1,6 @@
 <p align="center">
   <img
-    src="https://raw.githubusercontent.com/pankajkumar53/call_history/main/logo.svg"
+    src="https://raw.githubusercontent.com/pankajkumar53/call_history/dd470712f0489f71f93bf0ba963b2e133472ff75/logo.svg"
     width="180"
     alt="Call History Plugin Logo"
   />
